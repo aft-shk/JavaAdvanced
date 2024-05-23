@@ -1,0 +1,28 @@
+package com.app.dao;
+
+import java.sql.*;
+import java.sql.Date;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.app.entities.User;
+
+public class UserDaoImpl implements  UserDao {
+	private Connection cn;
+	private PreparedStatement pst1,pst2,pst3,pst4;
+
+	@Override
+	public User signIn(String email, String password) throws SQLException {
+		
+		cn = 
+		
+		return null;
+	}
+
+	@Override
+	public List<User> getUserDetails(Date begin, Date end) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

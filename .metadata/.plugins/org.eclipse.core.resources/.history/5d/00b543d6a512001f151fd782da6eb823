@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome Page</title>
+</head>
+<body>
+<h1> Welcome to Java2EE...</h1>
+<h5> <a href="hello">Invoke a servlet deployed via annotation </a></h5>
+
+</body>
+</html>

@@ -1,0 +1,419 @@
+
+May 15, 2024 15:29:47.538 NEW SESSION
+May 15, 2024 15:29:47.539 [23240:14128:0515/152947.535:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -101
+May 15, 2024 15:29:48.95 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2024 15:29:50.72 [23240:12492:0515/152950.072:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for www.googleapis.com failed:
+May 15, 2024 15:29:50.72 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.72 ERROR: No matching issuer found
+May 15, 2024 15:29:50.72 
+May 15, 2024 15:29:50.72 
+May 15, 2024 15:29:50.86 [23240:12492:0515/152950.072:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for ssl.gstatic.com failed:
+May 15, 2024 15:29:50.87 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.87 ERROR: No matching issuer found
+May 15, 2024 15:29:50.87 
+May 15, 2024 15:29:50.87 
+May 15, 2024 15:29:50.87 [23240:12492:0515/152950.072:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for ssl.google-analytics.com failed:
+May 15, 2024 15:29:50.87 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.87 ERROR: No matching issuer found
+May 15, 2024 15:29:50.87 
+May 15, 2024 15:29:50.87 
+May 15, 2024 15:29:50.87 [23240:12492:0515/152950.072:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for docs.google.com failed:
+May 15, 2024 15:29:50.87 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.87 ERROR: No matching issuer found
+May 15, 2024 15:29:50.102 
+May 15, 2024 15:29:50.102 
+May 15, 2024 15:29:50.102 [23240:12492:0515/152950.087:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for accounts.google.com failed:
+May 15, 2024 15:29:50.102 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.102 ERROR: No matching issuer found
+May 15, 2024 15:29:50.102 
+May 15, 2024 15:29:50.102 
+May 15, 2024 15:29:50.118 [23240:12492:0515/152950.118:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clients2.google.com failed:
+May 15, 2024 15:29:50.118 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.118 ERROR: No matching issuer found
+May 15, 2024 15:29:50.118 
+May 15, 2024 15:29:50.118 
+May 15, 2024 15:29:50.118 [23240:12492:0515/152950.118:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clientservices.googleapis.com failed:
+May 15, 2024 15:29:50.118 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.118 ERROR: No matching issuer found
+May 15, 2024 15:29:50.118 
+May 15, 2024 15:29:50.118 
+May 15, 2024 15:29:50.118 [23240:12492:0515/152950.118:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for update.googleapis.com failed:
+May 15, 2024 15:29:50.133 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:50.133 ERROR: No matching issuer found
+May 15, 2024 15:29:50.133 
+May 15, 2024 15:29:50.133 
+May 15, 2024 15:29:51.426 [23240:12492:0515/152951.426:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 15, 2024 15:29:51.426 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:51.426 ERROR: No matching issuer found
+May 15, 2024 15:29:51.426 
+May 15, 2024 15:29:51.426 
+May 15, 2024 15:29:51.500 [23240:12492:0515/152951.500:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 15, 2024 15:29:51.500 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:51.502 ERROR: No matching issuer found
+May 15, 2024 15:29:51.502 
+May 15, 2024 15:29:51.502 
+May 15, 2024 15:29:51.504 [23240:12492:0515/152951.500:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 15, 2024 15:29:51.504 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:51.504 ERROR: No matching issuer found
+May 15, 2024 15:29:51.504 
+May 15, 2024 15:29:51.504 
+May 15, 2024 15:29:53.923 [23240:12492:0515/152953.923:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for play.google.com failed:
+May 15, 2024 15:29:53.923 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:53.923 ERROR: No matching issuer found
+May 15, 2024 15:29:53.930 
+May 15, 2024 15:29:53.931 
+May 15, 2024 15:29:55.468 [23240:12492:0515/152955.466:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for optimizationguide-pa.googleapis.com failed:
+May 15, 2024 15:29:55.468 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:29:55.468 ERROR: No matching issuer found
+May 15, 2024 15:29:55.468 
+May 15, 2024 15:29:55.474 
+May 15, 2024 15:30:06.462 [23240:12492:0515/153006.462:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for safebrowsing.google.com failed:
+May 15, 2024 15:30:06.467 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:30:06.467 ERROR: No matching issuer found
+May 15, 2024 15:30:06.468 
+May 15, 2024 15:30:06.469 
+May 15, 2024 15:30:17.66 [23240:12492:0515/153017.066:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for mtalk.google.com failed:
+May 15, 2024 15:30:17.68 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:30:17.70 ERROR: No matching issuer found
+May 15, 2024 15:30:17.70 
+May 15, 2024 15:30:17.72 
+May 15, 2024 15:30:17.72 [23240:14128:0515/153017.068:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
+May 15, 2024 15:30:38.256 [23240:10332:0515/153038.256:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-202).
+May 15, 2024 15:30:38.256 [23240:10332:0515/153038.256:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-202).
+May 15, 2024 15:30:38.652 [23240:12492:0515/153038.652:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for youtube.com failed:
+May 15, 2024 15:30:38.652 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:30:38.652 ERROR: No matching issuer found
+May 15, 2024 15:30:38.667 
+May 15, 2024 15:30:38.667 
+May 15, 2024 15:30:46.726 [23240:12492:0515/153046.726:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clients4.google.com failed:
+May 15, 2024 15:30:46.726 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:30:46.726 ERROR: No matching issuer found
+May 15, 2024 15:30:46.726 
+May 15, 2024 15:30:46.726 
+May 15, 2024 15:30:47.204 [23240:12492:0515/153047.198:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for update.googleapis.com failed:
+May 15, 2024 15:30:47.204 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:30:47.206 ERROR: No matching issuer found
+May 15, 2024 15:30:47.206 
+May 15, 2024 15:30:47.206 
+May 15, 2024 15:31:02.659 [23240:14128:0515/153102.643:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -101
+May 15, 2024 15:31:08.403 [23240:12492:0515/153108.403:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for sb-ssl.google.com failed:
+May 15, 2024 15:31:08.403 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:31:08.403 ERROR: No matching issuer found
+May 15, 2024 15:31:08.403 
+May 15, 2024 15:31:08.403 
+May 15, 2024 15:32:15.944 [23240:12492:0515/153215.944:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+May 15, 2024 15:32:15.944 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:32:15.948 ERROR: No matching issuer found
+May 15, 2024 15:32:15.948 
+May 15, 2024 15:32:15.952 
+May 15, 2024 15:58:36.262 [22656:19908:0515/155836.262:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for accounts.google.com failed:
+May 15, 2024 15:58:36.263 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:36.264 ERROR: No matching issuer found
+May 15, 2024 15:58:36.264 
+May 15, 2024 15:58:36.265 
+May 15, 2024 15:58:36.273 [22656:19908:0515/155836.272:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for www.googleapis.com failed:
+May 15, 2024 15:58:36.273 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:36.274 ERROR: No matching issuer found
+May 15, 2024 15:58:36.274 
+May 15, 2024 15:58:36.275 
+May 15, 2024 15:58:36.577 [22656:19908:0515/155836.576:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for ssl.google-analytics.com failed:
+May 15, 2024 15:58:36.579 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:36.580 ERROR: No matching issuer found
+May 15, 2024 15:58:36.581 
+May 15, 2024 15:58:36.583 
+May 15, 2024 15:58:36.779 [22656:19908:0515/155836.778:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for ssl.gstatic.com failed:
+May 15, 2024 15:58:36.784 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:36.786 ERROR: No matching issuer found
+May 15, 2024 15:58:36.787 
+May 15, 2024 15:58:36.788 
+May 15, 2024 15:58:37.181 [22656:19908:0515/155837.180:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clientservices.googleapis.com failed:
+May 15, 2024 15:58:37.182 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:37.182 ERROR: No matching issuer found
+May 15, 2024 15:58:37.183 
+May 15, 2024 15:58:37.183 
+May 15, 2024 15:58:37.991 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2024 15:58:38.894 [22656:18856:0515/155838.892:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -101
+May 15, 2024 15:58:39.61 [22656:19908:0515/155839.059:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for update.googleapis.com failed:
+May 15, 2024 15:58:39.63 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:39.63 ERROR: No matching issuer found
+May 15, 2024 15:58:39.65 
+May 15, 2024 15:58:39.66 
+May 15, 2024 15:58:39.67 [22656:19908:0515/155839.063:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clients2.google.com failed:
+May 15, 2024 15:58:39.69 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:39.70 ERROR: No matching issuer found
+May 15, 2024 15:58:39.71 
+May 15, 2024 15:58:39.73 
+May 15, 2024 15:58:39.74 [22656:19908:0515/155839.064:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for accounts.google.com failed:
+May 15, 2024 15:58:39.75 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:39.77 ERROR: No matching issuer found
+May 15, 2024 15:58:39.79 
+May 15, 2024 15:58:39.81 
+May 15, 2024 15:58:39.242 [22656:19908:0515/155839.241:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for www.googleapis.com failed:
+May 15, 2024 15:58:39.243 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:39.244 ERROR: No matching issuer found
+May 15, 2024 15:58:39.245 
+May 15, 2024 15:58:39.246 
+May 15, 2024 15:58:40.187 [22656:19908:0515/155840.187:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for docs.google.com failed:
+May 15, 2024 15:58:40.189 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:40.191 ERROR: No matching issuer found
+May 15, 2024 15:58:40.193 
+May 15, 2024 15:58:40.193 
+May 15, 2024 15:58:40.799 [22656:19908:0515/155840.798:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 15, 2024 15:58:40.799 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:40.799 ERROR: No matching issuer found
+May 15, 2024 15:58:40.799 
+May 15, 2024 15:58:40.799 
+May 15, 2024 15:58:41.845 [22656:19908:0515/155841.845:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 15, 2024 15:58:41.845 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:41.856 ERROR: No matching issuer found
+May 15, 2024 15:58:41.856 
+May 15, 2024 15:58:41.856 
+May 15, 2024 15:58:41.856 [22656:19908:0515/155841.845:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 15, 2024 15:58:41.856 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:41.861 ERROR: No matching issuer found
+May 15, 2024 15:58:41.861 
+May 15, 2024 15:58:41.861 
+May 15, 2024 15:58:45.626 [22656:19908:0515/155845.624:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for optimizationguide-pa.googleapis.com failed:
+May 15, 2024 15:58:45.627 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:45.629 ERROR: No matching issuer found
+May 15, 2024 15:58:45.629 
+May 15, 2024 15:58:45.629 
+May 15, 2024 15:58:47.835 [22656:19908:0515/155847.828:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for ssl.gstatic.com failed:
+May 15, 2024 15:58:47.837 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:47.838 ERROR: No matching issuer found
+May 15, 2024 15:58:47.839 
+May 15, 2024 15:58:47.840 
+May 15, 2024 15:58:51.811 [22656:19908:0515/155851.811:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for safebrowsing.google.com failed:
+May 15, 2024 15:58:51.811 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:58:51.811 ERROR: No matching issuer found
+May 15, 2024 15:58:51.811 
+May 15, 2024 15:58:51.817 
+May 15, 2024 15:59:03.707 [22656:19908:0515/155903.707:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for mtalk.google.com failed:
+May 15, 2024 15:59:03.707 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:59:03.707 ERROR: No matching issuer found
+May 15, 2024 15:59:03.707 
+May 15, 2024 15:59:03.707 
+May 15, 2024 15:59:03.707 [22656:18856:0515/155903.707:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
+May 15, 2024 15:59:35.635 [22656:19908:0515/155935.634:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clientservices.googleapis.com failed:
+May 15, 2024 15:59:35.636 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:59:35.638 ERROR: No matching issuer found
+May 15, 2024 15:59:35.639 
+May 15, 2024 15:59:35.640 
+May 15, 2024 15:59:36.811 [22656:19908:0515/155936.810:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clients4.google.com failed:
+May 15, 2024 15:59:36.812 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:59:36.813 ERROR: No matching issuer found
+May 15, 2024 15:59:36.815 
+May 15, 2024 15:59:36.816 
+May 15, 2024 15:59:37.100 [22656:19908:0515/155937.099:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for update.googleapis.com failed:
+May 15, 2024 15:59:37.102 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:59:37.103 ERROR: No matching issuer found
+May 15, 2024 15:59:37.104 
+May 15, 2024 15:59:37.105 
+May 15, 2024 15:59:41.550 [22656:19908:0515/155941.549:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+May 15, 2024 15:59:41.551 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:59:41.552 ERROR: No matching issuer found
+May 15, 2024 15:59:41.553 
+May 15, 2024 15:59:41.554 
+May 15, 2024 15:59:42.937 [22656:19908:0515/155942.937:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for b1.nel.goog failed:
+May 15, 2024 15:59:42.939 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:59:42.939 ERROR: No matching issuer found
+May 15, 2024 15:59:42.940 
+May 15, 2024 15:59:42.941 
+May 15, 2024 15:59:52.444 [22656:18856:0515/155952.443:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -101
+May 15, 2024 15:59:56.727 [22656:19908:0515/155956.727:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons.gvt2.com failed:
+May 15, 2024 15:59:56.728 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 15:59:56.729 ERROR: No matching issuer found
+May 15, 2024 15:59:56.730 
+May 15, 2024 15:59:56.730 
+May 15, 2024 16:01:40.289 [22656:18856:0515/160140.289:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
+May 15, 2024 16:01:43.29 [22656:19908:0515/160143.029:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons2.gvt2.com failed:
+May 15, 2024 16:01:43.29 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:01:43.29 ERROR: No matching issuer found
+May 15, 2024 16:01:43.29 
+May 15, 2024 16:01:43.29 
+May 15, 2024 16:01:50.03 [22656:19908:0515/160150.003:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons3.gvt2.com failed:
+May 15, 2024 16:01:50.03 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:01:50.12 ERROR: No matching issuer found
+May 15, 2024 16:01:50.12 
+May 15, 2024 16:01:50.12 
+May 15, 2024 16:01:56.279 [22656:19908:0515/160156.278:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for youtube.com failed:
+May 15, 2024 16:01:56.281 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:01:56.281 ERROR: No matching issuer found
+May 15, 2024 16:01:56.282 
+May 15, 2024 16:01:56.284 
+May 15, 2024 16:01:56.331 [22656:19908:0515/160156.329:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons4.gvt2.com failed:
+May 15, 2024 16:01:56.331 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:01:56.331 ERROR: No matching issuer found
+May 15, 2024 16:01:56.331 
+May 15, 2024 16:01:56.331 
+May 15, 2024 16:02:11.716 [22656:19908:0515/160211.716:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for www.google.ru failed:
+May 15, 2024 16:02:11.718 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:02:11.719 ERROR: No matching issuer found
+May 15, 2024 16:02:11.721 
+May 15, 2024 16:02:11.723 
+May 15, 2024 16:02:15.703 [22656:19908:0515/160215.702:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons5.gvt2.com failed:
+May 15, 2024 16:02:15.703 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:02:15.703 ERROR: No matching issuer found
+May 15, 2024 16:02:15.708 
+May 15, 2024 16:02:15.708 
+May 15, 2024 16:02:22.209 [22656:19908:0515/160222.207:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for beacons5.gvt3.com failed:
+May 15, 2024 16:02:22.209 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:02:22.209 ERROR: No matching issuer found
+May 15, 2024 16:02:22.209 
+May 15, 2024 16:02:22.209 
+May 15, 2024 16:03:27.461 [22656:19908:0515/160327.460:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for safebrowsing.googleapis.com failed:
+May 15, 2024 16:03:27.463 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:03:27.463 ERROR: No matching issuer found
+May 15, 2024 16:03:27.464 
+May 15, 2024 16:03:27.466 
+May 15, 2024 16:03:38.624 [22656:19908:0515/160338.624:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for 172.25.10.6 failed:
+May 15, 2024 16:03:38.641 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:03:38.642 ERROR: No matching issuer found
+May 15, 2024 16:03:38.643 
+May 15, 2024 16:03:38.645 
+May 15, 2024 16:03:47.676 [22656:19908:0515/160347.672:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for chromewebstore.googleapis.com failed:
+May 15, 2024 16:03:47.676 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 15, 2024 16:03:47.678 ERROR: No matching issuer found
+May 15, 2024 16:03:47.678 
+May 15, 2024 16:03:47.678 
+May 15, 2024 16:38:00.943 [22276:14124:0515/163800.943:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 15, 2024 16:38:01.116 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2024 16:38:11.892 [22276:14124:0515/163811.888:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 15, 2024 16:39:09.561 [22276:14124:0515/163909.560:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 15, 2024 16:40:35.837 [22276:14124:0515/164035.836:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 15, 2024 21:07:35.693 [22276:14124:0515/210735.693:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 15, 2024 21:08:40.71 [22276:21860:0515/210840.071:ERROR:device_event_log_impl.cc(195)] [21:08:40.071] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 15, 2024 21:24:27.546 [22276:21860:0515/212427.546:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+May 15, 2024 21:27:59.323 [22276:21860:0515/212759.323:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:06.417 [22276:21860:0515/212806.417:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:13.59 [22276:21860:0515/212813.059:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:18.90 [22276:21860:0515/212818.090:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:22.573 [22276:21860:0515/212822.573:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:32.770 [22276:21860:0515/212832.770:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:45.747 [22276:21860:0515/212845.747:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:49.742 [22276:21860:0515/212849.742:ERROR:gpu_process_host.cc(997)] GPU process exited unexpectedly: exit_code=1
+May 15, 2024 21:28:51.614 [22276:14124:0515/212851.614:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 15, 2024 21:28:51.614 [22276:21860:0515/212851.614:ERROR:network_service_instance_impl.cc(599)] Network service crashed, restarting service.
+
+May 16, 2024 14:41:53.943 NEW SESSION
+May 16, 2024 14:41:53.943 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 16, 2024 15:36:59.417 [13968:18672:0516/153659.416:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 16, 2024 15:55:17.666 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 16, 2024 15:55:55.930 [23240:24352:0516/155555.929:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 16, 2024 15:59:13.713 [23240:24728:0516/155913.713:ERROR:CONSOLE(1)] "Failed getting cookie attribute: Version", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+May 16, 2024 16:06:17.535 [23240:24728:0516/160617.533:ERROR:CONSOLE(1)] "Failed getting cookie attribute: Version", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+May 16, 2024 16:06:21.232 [23240:24352:0516/160621.230:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 16, 2024 16:07:31.513 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 16, 2024 16:08:12.333 [18444:23720:0516/160812.333:ERROR:CONSOLE(1)] "Failed getting cookie attribute: Version", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+May 16, 2024 16:31:23.356 [18444:22832:0516/163123.356:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 16, 2024 16:31:25.454 [18444:22832:0516/163125.454:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 16, 2024 16:49:07.23 [18444:22832:0516/164907.022:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 16, 2024 16:49:09.538 [18444:22832:0516/164909.538:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -101
+May 16, 2024 16:49:15.670 [18444:3340:0516/164915.670:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 16, 2024 16:49:15.670 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:15.670 ERROR: No matching issuer found
+May 16, 2024 16:49:15.670 
+May 16, 2024 16:49:15.670 
+May 16, 2024 16:49:16.217 [18444:3340:0516/164916.217:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 16, 2024 16:49:16.217 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:16.217 ERROR: No matching issuer found
+May 16, 2024 16:49:16.217 
+May 16, 2024 16:49:16.217 
+May 16, 2024 16:49:16.795 [18444:3340:0516/164916.795:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for dns.google failed:
+May 16, 2024 16:49:16.795 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:16.795 ERROR: No matching issuer found
+May 16, 2024 16:49:16.795 
+May 16, 2024 16:49:16.795 
+May 16, 2024 16:49:17.201 [18444:3340:0516/164917.201:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for safebrowsing.googleapis.com failed:
+May 16, 2024 16:49:17.201 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:17.201 ERROR: No matching issuer found
+May 16, 2024 16:49:17.201 
+May 16, 2024 16:49:17.201 
+May 16, 2024 16:49:17.280 [18444:3340:0516/164917.280:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for clientservices.googleapis.com failed:
+May 16, 2024 16:49:17.280 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:17.280 ERROR: No matching issuer found
+May 16, 2024 16:49:17.280 
+May 16, 2024 16:49:17.280 
+May 16, 2024 16:49:21.628 [18444:3340:0516/164921.628:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for alive.github.com failed:
+May 16, 2024 16:49:21.628 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:21.628 ERROR: No matching issuer found
+May 16, 2024 16:49:21.628 
+May 16, 2024 16:49:21.628 
+May 16, 2024 16:49:22.628 [18444:3340:0516/164922.628:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for 172.25.10.6 failed:
+May 16, 2024 16:49:22.628 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:22.628 ERROR: No matching issuer found
+May 16, 2024 16:49:22.628 
+May 16, 2024 16:49:22.628 
+May 16, 2024 16:49:22.894 [18444:3340:0516/164922.894:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for mtalk.google.com failed:
+May 16, 2024 16:49:22.894 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:49:22.894 ERROR: No matching issuer found
+May 16, 2024 16:49:22.894 
+May 16, 2024 16:49:22.894 
+May 16, 2024 16:49:22.894 [18444:22832:0516/164922.894:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -202
+May 16, 2024 16:51:00.348 [18444:3340:0516/165100.348:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for github.com failed:
+May 16, 2024 16:51:00.348 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 16, 2024 16:51:00.348 ERROR: No matching issuer found
+May 16, 2024 16:51:00.348 
+May 16, 2024 16:51:00.348 
+May 16, 2024 16:52:14.133 [18444:22832:0516/165214.133:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -101
+
+May 17, 2024 15:32:19.426 NEW SESSION
+May 17, 2024 15:32:19.426 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 17, 2024 16:46:04.254 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 17, 2024 16:47:05.757 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 17, 2024 16:48:51.384 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 17, 2024 16:54:17.843 [12912:5976:0517/165417.843:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 17, 2024 16:55:19.606 [12912:5976:0517/165519.605:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 17, 2024 16:55:21.771 [12912:5976:0517/165521.770:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 16:55:22.863 [12912:5976:0517/165522.862:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 16:55:29.199 [12912:5976:0517/165529.199:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 17, 2024 16:55:56.284 [12912:5976:0517/165556.284:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+May 17, 2024 20:38:06.46 NEW SESSION
+May 17, 2024 20:38:06.46 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 17, 2024 20:42:16.683 [21316:17632:0517/204216.682:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 17, 2024 22:39:28.911 [21316:17632:0517/223928.910:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 17, 2024 22:39:33.643 [21316:17632:0517/223933.642:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 17, 2024 22:39:33.765 [21316:17632:0517/223933.764:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 17, 2024 22:39:48.156 [21316:17632:0517/223948.155:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 22:39:52.727 [21316:17632:0517/223952.727:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 22:40:06.546 [21316:17632:0517/224006.546:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 22:40:10.85 [21316:14608:0517/224010.085:ERROR:device_event_log_impl.cc(195)] [22:40:10.081] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 17, 2024 22:40:10.198 [21316:17632:0517/224010.198:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 22:40:12.249 [21316:17632:0517/224012.249:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+May 17, 2024 22:40:19.268 [21316:17632:0517/224019.267:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 22:40:36.773 [21316:17632:0517/224036.772:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 17, 2024 22:42:56.880 [21316:14608:0517/224256.879:ERROR:device_event_log_impl.cc(195)] [22:42:56.878] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 18, 2024 24:16:11.865 [21316:17632:0518/001611.865:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 18, 2024 24:44:25.462 [21316:14608:0518/004425.461:ERROR:device_event_log_impl.cc(195)] [00:44:25.462] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 18, 2024 01:19:32.234 [21316:14608:0518/011932.233:ERROR:device_event_log_impl.cc(195)] [01:19:32.233] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+May 18, 2024 07:58:06.903 NEW SESSION
+May 18, 2024 07:58:06.903 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 19, 2024 11:37:38.208 NEW SESSION
+May 19, 2024 11:37:38.208 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 19, 2024 12:08:38.453 [19532:14728:0519/120838.453:ERROR:device_event_log_impl.cc(195)] [12:08:38.451] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 19, 2024 12:25:41.83 [19532:22212:0519/122541.082:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 19, 2024 12:33:06.774 [19532:22212:0519/123306.774:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 19, 2024 14:21:19.449 [19532:14728:0519/142119.448:ERROR:device_event_log_impl.cc(195)] [14:21:19.447] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 19, 2024 15:29:03.776 [19532:14728:0519/152903.775:ERROR:device_event_log_impl.cc(195)] [15:29:03.775] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+May 21, 2024 14:07:48.895 NEW SESSION
+May 21, 2024 14:07:48.895 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 21, 2024 14:08:02.296 [9808:16624:0521/140802.295:ERROR:extension_registrar.cc(539)] Failed to unregister service worker for extension gighmmpiobklfepjocnamgkkbiglidom
+
+May 21, 2024 17:20:58.288 NEW SESSION
+May 21, 2024 17:20:58.289 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 21, 2024 17:25:17.108 [3380:7032:0521/172517.108:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 21, 2024 17:44:19.846 [3380:7032:0521/174419.846:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 21, 2024 17:44:23.590 [3380:7032:0521/174423.589:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 21, 2024 17:44:28.861 [3380:7032:0521/174428.861:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 21, 2024 17:44:33.324 [3380:7032:0521/174433.324:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 21, 2024 17:44:34.166 [3380:5912:0521/174434.166:ERROR:device_event_log_impl.cc(195)] [17:44:34.163] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 21, 2024 17:44:35.339 [3380:7032:0521/174435.338:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 21, 2024 17:46:12.984 [3380:15492:0521/174612.984:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for 172.25.10.6 failed:
+May 21, 2024 17:46:12.985 ----- Certificate i=0 (CN=192.168.168.168,OU=HTTPS Management Certificate for SonicWALL (self-signed),O=HTTPS Management Certificate for SonicWALL (self-signed),L=Sunnyvale,ST=California,C=US) -----
+May 21, 2024 17:46:12.985 ERROR: No matching issuer found
+May 21, 2024 17:46:12.986 
+May 21, 2024 17:46:12.986 

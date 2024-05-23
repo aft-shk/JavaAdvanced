@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+</head>
+<body>
+<h2> JAVA Web Development Backend</h2>
+<a href="login.html"> <button type="button"> Login </button></a>
+
+</body>
+</html>

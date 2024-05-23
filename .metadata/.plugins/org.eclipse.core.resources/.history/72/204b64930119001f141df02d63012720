@@ -1,0 +1,38 @@
+package com.app.tester;
+
+import static com.app.utils.HibernateUtils.getFactory;
+
+import java.util.Scanner;
+
+import org.hibernate.SessionFactory;
+
+import com.app.dao.BlogPostDao;
+import com.app.dao.BlogPostDaoImpl;
+import com.app.entities.BlogPost;
+
+public class TestHibernate {
+
+	public static void main(String[] args) {
+		try (SessionFactory sf = getFactory();
+				Scanner sc = new Scanner(System.in)) {
+			BlogPostDao dao = new BlogPostDaoImpl();
+			System.out.println("enter post details -title");
+			String title = sc.nextLine();
+			System.out.println("Enter description");
+			String description = sc.nextLine();
+			System.out.println("Enter content");
+			String content = sc.nextLine();
+			System.out.println("Enter category id n author id");
+			BlogPost post = new BlogPost(title,description,content);
+			System.out.println(dao.createNewBlog(post, sc.nextLong(), sc.nextLong()));
+			
+			
+			System.out.println("Hibernate frmwork loaded " + sf);
+		} //JVM sf.close => cleanig up of DBCP
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.app.core&apos; to &apos;com.app.utilities&apos;&#x0D;&#x0A;- Original project: &apos;HealthCareSystem&apos;&#x0D;&#x0A;- Original element: &apos;HealthCareSystem/src/main/java/com.app.core&apos;&#x0D;&#x0A;- Renamed element: &apos;HealthCareSystem/src/main/java/com.app.utilities&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.app.core&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.app.core" name="com.app.utilities" qualified="false" references="true" stamp="1716295894476" textual="false" version="1.0"/>
+</session>

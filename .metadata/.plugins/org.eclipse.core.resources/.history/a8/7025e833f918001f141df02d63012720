@@ -1,0 +1,54 @@
+package com.app.dao;
+
+import static com.app.utils.HibernateUtils.getFactory;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.app.entities.BlogPost;
+import com.app.entities.Category;
+import com.app.entities.User;
+
+public class BlogPostDaoImpl  implements BlogPostDao{
+
+	@Override
+	public String createNewBlog(BlogPost post, Long categoryId, Long authorid) {
+		
+		String mesg = "not added";
+		Session session = getFactory().getCurrentSession();
+		// 2. Begin a Tx
+		Transaction tx = session.beginTransaction();
+		try {
+			//1.get category from its id
+			Category cat= session.get(Category.class, categoryId);
+			//2.get author details from its id
+			User authorv= session.get(User.class, authorid);
+			//null checking
+			if(cat!= null & authorv !=null) {
+				
+				post.setChosenCategory(cat);
+				post.setAuthor(authorv);
+				
+				
+				session.persist(post);
+				mesg = "added new post with id" + post.getId();
+			}
+			
+			
+			
+			//establish relation between post---> author n post--> category
+			// setter 
+			tx.commit();
+			//mesg="Added new category with ID="+category.getId();
+		} catch (RuntimeException e) {
+			if (tx != null)
+				tx.rollback();
+			// re throw the exc to the caller
+			throw e;
+		}
+		return mesg;
+
+	}
+
+	
+}

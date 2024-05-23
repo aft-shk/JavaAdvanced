@@ -1,0 +1,81 @@
+package com.app.pages;
+
+import static com.app.utils.DBUtils.openConnection;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+import javax.servlet.Servlet;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.app.dao.CandidateDao;
+import com.app.dao.CandidateDaoImpl;
+import com.app.dao.UserDao;
+import com.app.dao.UserDaoImpl;
+
+/**
+ * Servlet implementation class AdminServlet
+ */
+@WebServlet("/admin")
+public class AdminServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	// declared UserDao and CandidateDao instnce
+	private UserDao userDao;
+	private CandidateDao candidateDao;
+
+	/**
+	 * @see Servlet#init(ServletConfig)
+	 */
+	public void init() throws ServletException {
+		System.out.println("in init of" + getClass());
+		ServletConfig config = getServletConfig();
+		
+			try {
+				openConnection(config.getInitParameter("db_url"),
+						config.getInitParameter("user_name"), config.getInitParameter("password"));
+				userDao = new UserDaoImpl();
+				candidateDao = new CandidateDaoImpl();
+				
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				// centralized exception
+				throw new ServletException("error in init "+ getClass(),e);
+			}
+			
+			
+		
+			
+		}
+		
+	
+
+	/**
+	 * @see Servlet#destroy()
+	 */
+	public void destroy() {
+		userdao.
+		
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

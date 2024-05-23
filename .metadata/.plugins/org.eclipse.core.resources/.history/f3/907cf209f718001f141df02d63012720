@@ -1,0 +1,19 @@
+package com.app.dao;
+
+import static com.app.utils.HibernateUtils.getFactory;
+import org.hibernate.Session;
+
+import com.app.entities.Category;
+
+public class CategoryDaoImpl implements CategoryDao{
+
+	@Override
+	public String addNewCategory(Category category) {
+
+		String mesg = " adding category failed";
+		Session session = getFactory().getCurren
+		return null;
+	}
+	
+
+}

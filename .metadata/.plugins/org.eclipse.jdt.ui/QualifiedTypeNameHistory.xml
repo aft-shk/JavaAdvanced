@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.app.utils.DBUtils"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
+    <fullyQualifiedTypeName name="com.app.entities.User"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
+    <fullyQualifiedTypeName name="com.app.dao.UserDao"/>
+    <fullyQualifiedTypeName name="com.app.dao.UserDaoImpl"/>
+    <fullyQualifiedTypeName name="com.app.dao.CandidateDaoImpl"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+</qualifiedTypeNameHistroy>
